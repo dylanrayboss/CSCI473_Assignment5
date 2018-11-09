@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.richTextBox2x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2x1 = new System.Windows.Forms.RichTextBox();
@@ -39,7 +38,6 @@
             this.richTextBox2x3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2x5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2x4 = new System.Windows.Forms.RichTextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.richTextBox3x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3x4 = new System.Windows.Forms.RichTextBox();
@@ -49,7 +47,6 @@
             this.richTextBox3x3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3x2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3x6 = new System.Windows.Forms.RichTextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.richTextBox6x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6x5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6x2 = new System.Windows.Forms.RichTextBox();
@@ -59,7 +56,6 @@
             this.richTextBox6x6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6x3 = new System.Windows.Forms.RichTextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.richTextBox5x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5x2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5x5 = new System.Windows.Forms.RichTextBox();
@@ -69,17 +65,12 @@
             this.richTextBox5x6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5x1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5x4 = new System.Windows.Forms.RichTextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.richTextBox4x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4x7 = new System.Windows.Forms.RichTextBox();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.richTextBox9x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9x2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9x5 = new System.Windows.Forms.RichTextBox();
@@ -89,7 +80,6 @@
             this.richTextBox9x1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9x4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9x8 = new System.Windows.Forms.RichTextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.richTextBox8x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8x5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8x2 = new System.Windows.Forms.RichTextBox();
@@ -99,7 +89,6 @@
             this.richTextBox8x1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8x3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8x6 = new System.Windows.Forms.RichTextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.richTextBox7x9 = new System.Windows.Forms.RichTextBox();
             this.richTextBox7x5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox7x7 = new System.Windows.Forms.RichTextBox();
@@ -115,45 +104,23 @@
             this.mediumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.richTextBox1x1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x6 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox1x9 = new System.Windows.Forms.RichTextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.richTextBox1x8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1x1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox4x7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4x8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4x9 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.difficultyContextMenuStrip.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.richTextBox2x9);
-            this.panel2.Controls.Add(this.richTextBox2x8);
-            this.panel2.Controls.Add(this.richTextBox2x1);
-            this.panel2.Controls.Add(this.richTextBox2x7);
-            this.panel2.Controls.Add(this.richTextBox2x2);
-            this.panel2.Controls.Add(this.richTextBox2x6);
-            this.panel2.Controls.Add(this.richTextBox2x3);
-            this.panel2.Controls.Add(this.richTextBox2x5);
-            this.panel2.Controls.Add(this.richTextBox2x4);
-            this.panel2.Location = new System.Drawing.Point(174, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(174, 174);
-            this.panel2.TabIndex = 1;
             // 
             // richTextBox2x9
             // 
@@ -161,7 +128,7 @@
             this.richTextBox2x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox2x9.Location = new System.Drawing.Point(470, 58);
             this.richTextBox2x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x9.Name = "richTextBox2x9";
             this.richTextBox2x9.Size = new System.Drawing.Size(58, 58);
@@ -177,7 +144,7 @@
             this.richTextBox2x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox2x8.Location = new System.Drawing.Point(412, 58);
             this.richTextBox2x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x8.Name = "richTextBox2x8";
             this.richTextBox2x8.Size = new System.Drawing.Size(58, 58);
@@ -193,7 +160,7 @@
             this.richTextBox2x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox2x1.Location = new System.Drawing.Point(0, 58);
             this.richTextBox2x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x1.Name = "richTextBox2x1";
             this.richTextBox2x1.Size = new System.Drawing.Size(58, 58);
@@ -209,7 +176,7 @@
             this.richTextBox2x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox2x7.Location = new System.Drawing.Point(354, 58);
             this.richTextBox2x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x7.Name = "richTextBox2x7";
             this.richTextBox2x7.Size = new System.Drawing.Size(58, 58);
@@ -225,7 +192,7 @@
             this.richTextBox2x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox2x2.Location = new System.Drawing.Point(58, 58);
             this.richTextBox2x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x2.Name = "richTextBox2x2";
             this.richTextBox2x2.Size = new System.Drawing.Size(58, 58);
@@ -241,7 +208,7 @@
             this.richTextBox2x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox2x6.Location = new System.Drawing.Point(293, 58);
             this.richTextBox2x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x6.Name = "richTextBox2x6";
             this.richTextBox2x6.Size = new System.Drawing.Size(58, 58);
@@ -257,7 +224,7 @@
             this.richTextBox2x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox2x3.Location = new System.Drawing.Point(116, 58);
             this.richTextBox2x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x3.Name = "richTextBox2x3";
             this.richTextBox2x3.Size = new System.Drawing.Size(58, 58);
@@ -273,7 +240,7 @@
             this.richTextBox2x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox2x5.Location = new System.Drawing.Point(235, 58);
             this.richTextBox2x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x5.Name = "richTextBox2x5";
             this.richTextBox2x5.Size = new System.Drawing.Size(58, 58);
@@ -289,7 +256,7 @@
             this.richTextBox2x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox2x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox2x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox2x4.Location = new System.Drawing.Point(177, 58);
             this.richTextBox2x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox2x4.Name = "richTextBox2x4";
             this.richTextBox2x4.Size = new System.Drawing.Size(58, 58);
@@ -299,30 +266,13 @@
             this.richTextBox2x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x4.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.richTextBox3x9);
-            this.panel3.Controls.Add(this.richTextBox3x8);
-            this.panel3.Controls.Add(this.richTextBox3x4);
-            this.panel3.Controls.Add(this.richTextBox3x1);
-            this.panel3.Controls.Add(this.richTextBox3x5);
-            this.panel3.Controls.Add(this.richTextBox3x7);
-            this.panel3.Controls.Add(this.richTextBox3x3);
-            this.panel3.Controls.Add(this.richTextBox3x2);
-            this.panel3.Controls.Add(this.richTextBox3x6);
-            this.panel3.Location = new System.Drawing.Point(348, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(174, 174);
-            this.panel3.TabIndex = 2;
-            // 
             // richTextBox3x9
             // 
             this.richTextBox3x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox3x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox3x9.Location = new System.Drawing.Point(470, 116);
             this.richTextBox3x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x9.Name = "richTextBox3x9";
             this.richTextBox3x9.Size = new System.Drawing.Size(58, 58);
@@ -338,7 +288,7 @@
             this.richTextBox3x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox3x8.Location = new System.Drawing.Point(412, 116);
             this.richTextBox3x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x8.Name = "richTextBox3x8";
             this.richTextBox3x8.Size = new System.Drawing.Size(58, 58);
@@ -354,7 +304,7 @@
             this.richTextBox3x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox3x4.Location = new System.Drawing.Point(177, 116);
             this.richTextBox3x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x4.Name = "richTextBox3x4";
             this.richTextBox3x4.Size = new System.Drawing.Size(58, 58);
@@ -370,7 +320,7 @@
             this.richTextBox3x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox3x1.Location = new System.Drawing.Point(0, 116);
             this.richTextBox3x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x1.Name = "richTextBox3x1";
             this.richTextBox3x1.Size = new System.Drawing.Size(58, 58);
@@ -386,7 +336,7 @@
             this.richTextBox3x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox3x5.Location = new System.Drawing.Point(235, 116);
             this.richTextBox3x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x5.Name = "richTextBox3x5";
             this.richTextBox3x5.Size = new System.Drawing.Size(58, 58);
@@ -402,7 +352,7 @@
             this.richTextBox3x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox3x7.Location = new System.Drawing.Point(354, 116);
             this.richTextBox3x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x7.Name = "richTextBox3x7";
             this.richTextBox3x7.Size = new System.Drawing.Size(58, 58);
@@ -418,7 +368,7 @@
             this.richTextBox3x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox3x3.Location = new System.Drawing.Point(116, 116);
             this.richTextBox3x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x3.Name = "richTextBox3x3";
             this.richTextBox3x3.Size = new System.Drawing.Size(58, 58);
@@ -434,7 +384,7 @@
             this.richTextBox3x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox3x2.Location = new System.Drawing.Point(58, 116);
             this.richTextBox3x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x2.Name = "richTextBox3x2";
             this.richTextBox3x2.Size = new System.Drawing.Size(58, 58);
@@ -450,7 +400,7 @@
             this.richTextBox3x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox3x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox3x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox3x6.Location = new System.Drawing.Point(293, 116);
             this.richTextBox3x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox3x6.Name = "richTextBox3x6";
             this.richTextBox3x6.Size = new System.Drawing.Size(58, 58);
@@ -460,30 +410,13 @@
             this.richTextBox3x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x6.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.richTextBox6x9);
-            this.panel6.Controls.Add(this.richTextBox6x5);
-            this.panel6.Controls.Add(this.richTextBox6x2);
-            this.panel6.Controls.Add(this.richTextBox6x4);
-            this.panel6.Controls.Add(this.richTextBox6x1);
-            this.panel6.Controls.Add(this.richTextBox6x7);
-            this.panel6.Controls.Add(this.richTextBox6x6);
-            this.panel6.Controls.Add(this.richTextBox6x8);
-            this.panel6.Controls.Add(this.richTextBox6x3);
-            this.panel6.Location = new System.Drawing.Point(348, 174);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(174, 174);
-            this.panel6.TabIndex = 5;
-            // 
             // richTextBox6x9
             // 
             this.richTextBox6x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox6x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox6x9.Location = new System.Drawing.Point(470, 293);
             this.richTextBox6x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x9.Name = "richTextBox6x9";
             this.richTextBox6x9.Size = new System.Drawing.Size(58, 58);
@@ -499,7 +432,7 @@
             this.richTextBox6x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox6x5.Location = new System.Drawing.Point(235, 293);
             this.richTextBox6x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x5.Name = "richTextBox6x5";
             this.richTextBox6x5.Size = new System.Drawing.Size(58, 58);
@@ -515,7 +448,7 @@
             this.richTextBox6x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox6x2.Location = new System.Drawing.Point(58, 293);
             this.richTextBox6x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x2.Name = "richTextBox6x2";
             this.richTextBox6x2.Size = new System.Drawing.Size(58, 58);
@@ -531,7 +464,7 @@
             this.richTextBox6x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox6x4.Location = new System.Drawing.Point(177, 293);
             this.richTextBox6x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x4.Name = "richTextBox6x4";
             this.richTextBox6x4.Size = new System.Drawing.Size(58, 58);
@@ -547,7 +480,7 @@
             this.richTextBox6x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox6x1.Location = new System.Drawing.Point(0, 293);
             this.richTextBox6x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x1.Name = "richTextBox6x1";
             this.richTextBox6x1.Size = new System.Drawing.Size(58, 58);
@@ -563,7 +496,7 @@
             this.richTextBox6x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox6x7.Location = new System.Drawing.Point(354, 293);
             this.richTextBox6x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x7.Name = "richTextBox6x7";
             this.richTextBox6x7.Size = new System.Drawing.Size(58, 58);
@@ -579,7 +512,7 @@
             this.richTextBox6x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox6x6.Location = new System.Drawing.Point(293, 293);
             this.richTextBox6x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x6.Name = "richTextBox6x6";
             this.richTextBox6x6.Size = new System.Drawing.Size(58, 58);
@@ -595,7 +528,7 @@
             this.richTextBox6x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox6x8.Location = new System.Drawing.Point(412, 293);
             this.richTextBox6x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x8.Name = "richTextBox6x8";
             this.richTextBox6x8.Size = new System.Drawing.Size(58, 58);
@@ -611,7 +544,7 @@
             this.richTextBox6x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox6x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox6x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox6x3.Location = new System.Drawing.Point(116, 293);
             this.richTextBox6x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox6x3.Name = "richTextBox6x3";
             this.richTextBox6x3.Size = new System.Drawing.Size(58, 58);
@@ -621,30 +554,13 @@
             this.richTextBox6x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x3.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.richTextBox5x9);
-            this.panel5.Controls.Add(this.richTextBox5x2);
-            this.panel5.Controls.Add(this.richTextBox5x5);
-            this.panel5.Controls.Add(this.richTextBox5x7);
-            this.panel5.Controls.Add(this.richTextBox5x8);
-            this.panel5.Controls.Add(this.richTextBox5x3);
-            this.panel5.Controls.Add(this.richTextBox5x6);
-            this.panel5.Controls.Add(this.richTextBox5x1);
-            this.panel5.Controls.Add(this.richTextBox5x4);
-            this.panel5.Location = new System.Drawing.Point(174, 174);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(174, 174);
-            this.panel5.TabIndex = 4;
-            // 
             // richTextBox5x9
             // 
             this.richTextBox5x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox5x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox5x9.Location = new System.Drawing.Point(470, 235);
             this.richTextBox5x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x9.Name = "richTextBox5x9";
             this.richTextBox5x9.Size = new System.Drawing.Size(58, 58);
@@ -660,7 +576,7 @@
             this.richTextBox5x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox5x2.Location = new System.Drawing.Point(58, 235);
             this.richTextBox5x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x2.Name = "richTextBox5x2";
             this.richTextBox5x2.Size = new System.Drawing.Size(58, 58);
@@ -676,7 +592,7 @@
             this.richTextBox5x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox5x5.Location = new System.Drawing.Point(235, 235);
             this.richTextBox5x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x5.Name = "richTextBox5x5";
             this.richTextBox5x5.Size = new System.Drawing.Size(58, 58);
@@ -692,7 +608,7 @@
             this.richTextBox5x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox5x7.Location = new System.Drawing.Point(354, 235);
             this.richTextBox5x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x7.Name = "richTextBox5x7";
             this.richTextBox5x7.Size = new System.Drawing.Size(58, 58);
@@ -708,7 +624,7 @@
             this.richTextBox5x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox5x8.Location = new System.Drawing.Point(412, 235);
             this.richTextBox5x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x8.Name = "richTextBox5x8";
             this.richTextBox5x8.Size = new System.Drawing.Size(58, 58);
@@ -724,7 +640,7 @@
             this.richTextBox5x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox5x3.Location = new System.Drawing.Point(116, 235);
             this.richTextBox5x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x3.Name = "richTextBox5x3";
             this.richTextBox5x3.Size = new System.Drawing.Size(58, 58);
@@ -740,7 +656,7 @@
             this.richTextBox5x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox5x6.Location = new System.Drawing.Point(293, 235);
             this.richTextBox5x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x6.Name = "richTextBox5x6";
             this.richTextBox5x6.Size = new System.Drawing.Size(58, 58);
@@ -756,7 +672,7 @@
             this.richTextBox5x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox5x1.Location = new System.Drawing.Point(0, 235);
             this.richTextBox5x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x1.Name = "richTextBox5x1";
             this.richTextBox5x1.Size = new System.Drawing.Size(58, 58);
@@ -772,7 +688,7 @@
             this.richTextBox5x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox5x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox5x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox5x4.Location = new System.Drawing.Point(177, 235);
             this.richTextBox5x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox5x4.Name = "richTextBox5x4";
             this.richTextBox5x4.Size = new System.Drawing.Size(58, 58);
@@ -782,46 +698,13 @@
             this.richTextBox5x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x4.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.richTextBox4x9);
-            this.panel4.Controls.Add(this.richTextBox4x5);
-            this.panel4.Controls.Add(this.richTextBox4x8);
-            this.panel4.Controls.Add(this.richTextBox4x6);
-            this.panel4.Controls.Add(this.richTextBox4x4);
-            this.panel4.Controls.Add(this.richTextBox4x2);
-            this.panel4.Controls.Add(this.richTextBox4x1);
-            this.panel4.Controls.Add(this.richTextBox4x3);
-            this.panel4.Controls.Add(this.richTextBox4x7);
-            this.panel4.Location = new System.Drawing.Point(0, 174);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(174, 174);
-            this.panel4.TabIndex = 3;
-            // 
-            // richTextBox4x9
-            // 
-            this.richTextBox4x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox4x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x9.Location = new System.Drawing.Point(116, 116);
-            this.richTextBox4x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox4x9.Name = "richTextBox4x9";
-            this.richTextBox4x9.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox4x9.TabIndex = 36;
-            this.richTextBox4x9.Text = "9";
-            this.richTextBox4x9.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox4x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox4x9.Leave += new System.EventHandler(this.LeaveFocus);
-            // 
             // richTextBox4x5
             // 
             this.richTextBox4x5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox4x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox4x5.Location = new System.Drawing.Point(235, 177);
             this.richTextBox4x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x5.Name = "richTextBox4x5";
             this.richTextBox4x5.Size = new System.Drawing.Size(58, 58);
@@ -831,29 +714,13 @@
             this.richTextBox4x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x5.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox4x8
-            // 
-            this.richTextBox4x8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox4x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x8.Location = new System.Drawing.Point(58, 116);
-            this.richTextBox4x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox4x8.Name = "richTextBox4x8";
-            this.richTextBox4x8.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox4x8.TabIndex = 35;
-            this.richTextBox4x8.Text = "8";
-            this.richTextBox4x8.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox4x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox4x8.Leave += new System.EventHandler(this.LeaveFocus);
-            // 
             // richTextBox4x6
             // 
             this.richTextBox4x6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox4x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox4x6.Location = new System.Drawing.Point(293, 177);
             this.richTextBox4x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x6.Name = "richTextBox4x6";
             this.richTextBox4x6.Size = new System.Drawing.Size(58, 58);
@@ -869,7 +736,7 @@
             this.richTextBox4x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox4x4.Location = new System.Drawing.Point(177, 177);
             this.richTextBox4x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x4.Name = "richTextBox4x4";
             this.richTextBox4x4.Size = new System.Drawing.Size(58, 58);
@@ -885,7 +752,7 @@
             this.richTextBox4x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox4x2.Location = new System.Drawing.Point(58, 177);
             this.richTextBox4x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x2.Name = "richTextBox4x2";
             this.richTextBox4x2.Size = new System.Drawing.Size(58, 58);
@@ -901,7 +768,7 @@
             this.richTextBox4x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox4x1.Location = new System.Drawing.Point(0, 177);
             this.richTextBox4x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x1.Name = "richTextBox4x1";
             this.richTextBox4x1.Size = new System.Drawing.Size(58, 58);
@@ -917,7 +784,7 @@
             this.richTextBox4x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox4x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox4x3.Location = new System.Drawing.Point(116, 177);
             this.richTextBox4x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox4x3.Name = "richTextBox4x3";
             this.richTextBox4x3.Size = new System.Drawing.Size(58, 58);
@@ -927,46 +794,13 @@
             this.richTextBox4x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x3.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox4x7
-            // 
-            this.richTextBox4x7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox4x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox4x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox4x7.Location = new System.Drawing.Point(0, 116);
-            this.richTextBox4x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox4x7.Name = "richTextBox4x7";
-            this.richTextBox4x7.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox4x7.TabIndex = 34;
-            this.richTextBox4x7.Text = "7";
-            this.richTextBox4x7.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox4x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox4x7.Leave += new System.EventHandler(this.LeaveFocus);
-            // 
-            // panel9
-            // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.richTextBox9x9);
-            this.panel9.Controls.Add(this.richTextBox9x2);
-            this.panel9.Controls.Add(this.richTextBox9x5);
-            this.panel9.Controls.Add(this.richTextBox9x6);
-            this.panel9.Controls.Add(this.richTextBox9x3);
-            this.panel9.Controls.Add(this.richTextBox9x7);
-            this.panel9.Controls.Add(this.richTextBox9x1);
-            this.panel9.Controls.Add(this.richTextBox9x4);
-            this.panel9.Controls.Add(this.richTextBox9x8);
-            this.panel9.Location = new System.Drawing.Point(348, 348);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(174, 174);
-            this.panel9.TabIndex = 8;
-            // 
             // richTextBox9x9
             // 
             this.richTextBox9x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox9x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox9x9.Location = new System.Drawing.Point(470, 470);
             this.richTextBox9x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x9.Name = "richTextBox9x9";
             this.richTextBox9x9.Size = new System.Drawing.Size(58, 58);
@@ -982,7 +816,7 @@
             this.richTextBox9x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox9x2.Location = new System.Drawing.Point(58, 470);
             this.richTextBox9x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x2.Name = "richTextBox9x2";
             this.richTextBox9x2.Size = new System.Drawing.Size(58, 58);
@@ -998,7 +832,7 @@
             this.richTextBox9x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox9x5.Location = new System.Drawing.Point(235, 470);
             this.richTextBox9x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x5.Name = "richTextBox9x5";
             this.richTextBox9x5.Size = new System.Drawing.Size(58, 58);
@@ -1014,7 +848,7 @@
             this.richTextBox9x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox9x6.Location = new System.Drawing.Point(293, 470);
             this.richTextBox9x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x6.Name = "richTextBox9x6";
             this.richTextBox9x6.Size = new System.Drawing.Size(58, 58);
@@ -1030,7 +864,7 @@
             this.richTextBox9x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox9x3.Location = new System.Drawing.Point(116, 470);
             this.richTextBox9x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x3.Name = "richTextBox9x3";
             this.richTextBox9x3.Size = new System.Drawing.Size(58, 58);
@@ -1046,7 +880,7 @@
             this.richTextBox9x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox9x7.Location = new System.Drawing.Point(354, 470);
             this.richTextBox9x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x7.Name = "richTextBox9x7";
             this.richTextBox9x7.Size = new System.Drawing.Size(58, 58);
@@ -1062,7 +896,7 @@
             this.richTextBox9x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox9x1.Location = new System.Drawing.Point(0, 470);
             this.richTextBox9x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x1.Name = "richTextBox9x1";
             this.richTextBox9x1.Size = new System.Drawing.Size(58, 58);
@@ -1078,7 +912,7 @@
             this.richTextBox9x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox9x4.Location = new System.Drawing.Point(177, 470);
             this.richTextBox9x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x4.Name = "richTextBox9x4";
             this.richTextBox9x4.Size = new System.Drawing.Size(58, 58);
@@ -1094,7 +928,7 @@
             this.richTextBox9x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox9x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox9x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox9x8.Location = new System.Drawing.Point(412, 470);
             this.richTextBox9x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox9x8.Name = "richTextBox9x8";
             this.richTextBox9x8.Size = new System.Drawing.Size(58, 58);
@@ -1104,30 +938,13 @@
             this.richTextBox9x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x8.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel8
-            // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.richTextBox8x9);
-            this.panel8.Controls.Add(this.richTextBox8x5);
-            this.panel8.Controls.Add(this.richTextBox8x2);
-            this.panel8.Controls.Add(this.richTextBox8x7);
-            this.panel8.Controls.Add(this.richTextBox8x4);
-            this.panel8.Controls.Add(this.richTextBox8x8);
-            this.panel8.Controls.Add(this.richTextBox8x1);
-            this.panel8.Controls.Add(this.richTextBox8x3);
-            this.panel8.Controls.Add(this.richTextBox8x6);
-            this.panel8.Location = new System.Drawing.Point(174, 348);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(174, 174);
-            this.panel8.TabIndex = 7;
-            // 
             // richTextBox8x9
             // 
             this.richTextBox8x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox8x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox8x9.Location = new System.Drawing.Point(470, 412);
             this.richTextBox8x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x9.Name = "richTextBox8x9";
             this.richTextBox8x9.Size = new System.Drawing.Size(58, 58);
@@ -1143,7 +960,7 @@
             this.richTextBox8x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox8x5.Location = new System.Drawing.Point(235, 412);
             this.richTextBox8x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x5.Name = "richTextBox8x5";
             this.richTextBox8x5.Size = new System.Drawing.Size(58, 58);
@@ -1159,7 +976,7 @@
             this.richTextBox8x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox8x2.Location = new System.Drawing.Point(58, 412);
             this.richTextBox8x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x2.Name = "richTextBox8x2";
             this.richTextBox8x2.Size = new System.Drawing.Size(58, 58);
@@ -1175,7 +992,7 @@
             this.richTextBox8x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox8x7.Location = new System.Drawing.Point(354, 412);
             this.richTextBox8x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x7.Name = "richTextBox8x7";
             this.richTextBox8x7.Size = new System.Drawing.Size(58, 58);
@@ -1191,7 +1008,7 @@
             this.richTextBox8x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox8x4.Location = new System.Drawing.Point(177, 412);
             this.richTextBox8x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x4.Name = "richTextBox8x4";
             this.richTextBox8x4.Size = new System.Drawing.Size(58, 58);
@@ -1207,7 +1024,7 @@
             this.richTextBox8x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox8x8.Location = new System.Drawing.Point(412, 412);
             this.richTextBox8x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x8.Name = "richTextBox8x8";
             this.richTextBox8x8.Size = new System.Drawing.Size(58, 58);
@@ -1223,7 +1040,7 @@
             this.richTextBox8x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox8x1.Location = new System.Drawing.Point(0, 412);
             this.richTextBox8x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x1.Name = "richTextBox8x1";
             this.richTextBox8x1.Size = new System.Drawing.Size(58, 58);
@@ -1239,7 +1056,7 @@
             this.richTextBox8x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox8x3.Location = new System.Drawing.Point(116, 412);
             this.richTextBox8x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x3.Name = "richTextBox8x3";
             this.richTextBox8x3.Size = new System.Drawing.Size(58, 58);
@@ -1255,7 +1072,7 @@
             this.richTextBox8x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox8x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox8x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox8x6.Location = new System.Drawing.Point(293, 412);
             this.richTextBox8x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox8x6.Name = "richTextBox8x6";
             this.richTextBox8x6.Size = new System.Drawing.Size(58, 58);
@@ -1265,30 +1082,13 @@
             this.richTextBox8x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x6.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel7
-            // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.richTextBox7x9);
-            this.panel7.Controls.Add(this.richTextBox7x5);
-            this.panel7.Controls.Add(this.richTextBox7x7);
-            this.panel7.Controls.Add(this.richTextBox7x8);
-            this.panel7.Controls.Add(this.richTextBox7x3);
-            this.panel7.Controls.Add(this.richTextBox7x6);
-            this.panel7.Controls.Add(this.richTextBox7x1);
-            this.panel7.Controls.Add(this.richTextBox7x4);
-            this.panel7.Controls.Add(this.richTextBox7x2);
-            this.panel7.Location = new System.Drawing.Point(0, 348);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(174, 174);
-            this.panel7.TabIndex = 6;
-            // 
             // richTextBox7x9
             // 
             this.richTextBox7x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox7x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x9.Location = new System.Drawing.Point(116, 116);
+            this.richTextBox7x9.Location = new System.Drawing.Point(470, 354);
             this.richTextBox7x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x9.Name = "richTextBox7x9";
             this.richTextBox7x9.Size = new System.Drawing.Size(58, 58);
@@ -1304,7 +1104,7 @@
             this.richTextBox7x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x5.Location = new System.Drawing.Point(58, 58);
+            this.richTextBox7x5.Location = new System.Drawing.Point(235, 354);
             this.richTextBox7x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x5.Name = "richTextBox7x5";
             this.richTextBox7x5.Size = new System.Drawing.Size(58, 58);
@@ -1320,7 +1120,7 @@
             this.richTextBox7x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x7.Location = new System.Drawing.Point(0, 116);
+            this.richTextBox7x7.Location = new System.Drawing.Point(354, 354);
             this.richTextBox7x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x7.Name = "richTextBox7x7";
             this.richTextBox7x7.Size = new System.Drawing.Size(58, 58);
@@ -1336,7 +1136,7 @@
             this.richTextBox7x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x8.Location = new System.Drawing.Point(58, 116);
+            this.richTextBox7x8.Location = new System.Drawing.Point(412, 354);
             this.richTextBox7x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x8.Name = "richTextBox7x8";
             this.richTextBox7x8.Size = new System.Drawing.Size(58, 58);
@@ -1352,7 +1152,7 @@
             this.richTextBox7x3.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x3.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x3.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x3.Location = new System.Drawing.Point(116, 0);
+            this.richTextBox7x3.Location = new System.Drawing.Point(116, 354);
             this.richTextBox7x3.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x3.Name = "richTextBox7x3";
             this.richTextBox7x3.Size = new System.Drawing.Size(58, 58);
@@ -1368,7 +1168,7 @@
             this.richTextBox7x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x6.Location = new System.Drawing.Point(116, 58);
+            this.richTextBox7x6.Location = new System.Drawing.Point(293, 354);
             this.richTextBox7x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x6.Name = "richTextBox7x6";
             this.richTextBox7x6.Size = new System.Drawing.Size(58, 58);
@@ -1384,7 +1184,7 @@
             this.richTextBox7x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox7x1.Location = new System.Drawing.Point(0, 354);
             this.richTextBox7x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x1.Name = "richTextBox7x1";
             this.richTextBox7x1.Size = new System.Drawing.Size(58, 58);
@@ -1400,7 +1200,7 @@
             this.richTextBox7x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x4.Location = new System.Drawing.Point(0, 58);
+            this.richTextBox7x4.Location = new System.Drawing.Point(177, 354);
             this.richTextBox7x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x4.Name = "richTextBox7x4";
             this.richTextBox7x4.Size = new System.Drawing.Size(58, 58);
@@ -1416,7 +1216,7 @@
             this.richTextBox7x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.richTextBox7x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox7x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox7x2.Location = new System.Drawing.Point(58, 354);
             this.richTextBox7x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
             this.richTextBox7x2.Name = "richTextBox7x2";
             this.richTextBox7x2.Size = new System.Drawing.Size(58, 58);
@@ -1428,7 +1228,7 @@
             // 
             // newPuzzleButton
             // 
-            this.newPuzzleButton.Location = new System.Drawing.Point(541, 301);
+            this.newPuzzleButton.Location = new System.Drawing.Point(570, 224);
             this.newPuzzleButton.Name = "newPuzzleButton";
             this.newPuzzleButton.Size = new System.Drawing.Size(75, 23);
             this.newPuzzleButton.TabIndex = 10;
@@ -1468,51 +1268,188 @@
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.panel2);
-            this.panel10.Controls.Add(this.panel1);
-            this.panel10.Controls.Add(this.panel3);
-            this.panel10.Controls.Add(this.panel4);
-            this.panel10.Controls.Add(this.panel9);
-            this.panel10.Controls.Add(this.panel5);
-            this.panel10.Controls.Add(this.panel8);
-            this.panel10.Controls.Add(this.panel6);
-            this.panel10.Controls.Add(this.panel7);
-            this.panel10.Location = new System.Drawing.Point(15, 10);
+            this.panel10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel10.Controls.Add(this.richTextBox7x4);
+            this.panel10.Controls.Add(this.richTextBox9x9);
+            this.panel10.Controls.Add(this.richTextBox8x9);
+            this.panel10.Controls.Add(this.richTextBox9x5);
+            this.panel10.Controls.Add(this.richTextBox9x7);
+            this.panel10.Controls.Add(this.richTextBox7x9);
+            this.panel10.Controls.Add(this.richTextBox7x8);
+            this.panel10.Controls.Add(this.richTextBox8x8);
+            this.panel10.Controls.Add(this.richTextBox8x7);
+            this.panel10.Controls.Add(this.richTextBox7x7);
+            this.panel10.Controls.Add(this.richTextBox7x6);
+            this.panel10.Controls.Add(this.richTextBox7x5);
+            this.panel10.Controls.Add(this.richTextBox5x9);
+            this.panel10.Controls.Add(this.richTextBox5x8);
+            this.panel10.Controls.Add(this.richTextBox5x7);
+            this.panel10.Controls.Add(this.richTextBox4x9);
+            this.panel10.Controls.Add(this.richTextBox4x8);
+            this.panel10.Controls.Add(this.richTextBox4x7);
+            this.panel10.Controls.Add(this.richTextBox4x6);
+            this.panel10.Controls.Add(this.richTextBox4x5);
+            this.panel10.Controls.Add(this.richTextBox4x4);
+            this.panel10.Controls.Add(this.richTextBox3x6);
+            this.panel10.Controls.Add(this.richTextBox3x4);
+            this.panel10.Controls.Add(this.richTextBox3x3);
+            this.panel10.Controls.Add(this.richTextBox3x5);
+            this.panel10.Controls.Add(this.richTextBox3x2);
+            this.panel10.Controls.Add(this.richTextBox1x7);
+            this.panel10.Controls.Add(this.richTextBox2x3);
+            this.panel10.Controls.Add(this.richTextBox2x2);
+            this.panel10.Controls.Add(this.richTextBox2x1);
+            this.panel10.Controls.Add(this.richTextBox7x1);
+            this.panel10.Controls.Add(this.richTextBox9x8);
+            this.panel10.Controls.Add(this.richTextBox1x6);
+            this.panel10.Controls.Add(this.richTextBox8x5);
+            this.panel10.Controls.Add(this.richTextBox9x2);
+            this.panel10.Controls.Add(this.richTextBox9x6);
+            this.panel10.Controls.Add(this.richTextBox6x9);
+            this.panel10.Controls.Add(this.richTextBox7x2);
+            this.panel10.Controls.Add(this.richTextBox9x4);
+            this.panel10.Controls.Add(this.richTextBox8x2);
+            this.panel10.Controls.Add(this.richTextBox8x4);
+            this.panel10.Controls.Add(this.richTextBox8x6);
+            this.panel10.Controls.Add(this.richTextBox7x3);
+            this.panel10.Controls.Add(this.richTextBox6x5);
+            this.panel10.Controls.Add(this.richTextBox9x3);
+            this.panel10.Controls.Add(this.richTextBox6x8);
+            this.panel10.Controls.Add(this.richTextBox8x1);
+            this.panel10.Controls.Add(this.richTextBox4x1);
+            this.panel10.Controls.Add(this.richTextBox8x3);
+            this.panel10.Controls.Add(this.richTextBox6x7);
+            this.panel10.Controls.Add(this.richTextBox9x1);
+            this.panel10.Controls.Add(this.richTextBox6x6);
+            this.panel10.Controls.Add(this.richTextBox5x2);
+            this.panel10.Controls.Add(this.richTextBox5x5);
+            this.panel10.Controls.Add(this.richTextBox3x9);
+            this.panel10.Controls.Add(this.richTextBox6x4);
+            this.panel10.Controls.Add(this.richTextBox1x4);
+            this.panel10.Controls.Add(this.richTextBox2x9);
+            this.panel10.Controls.Add(this.richTextBox5x6);
+            this.panel10.Controls.Add(this.richTextBox6x2);
+            this.panel10.Controls.Add(this.richTextBox1x5);
+            this.panel10.Controls.Add(this.richTextBox5x4);
+            this.panel10.Controls.Add(this.richTextBox3x8);
+            this.panel10.Controls.Add(this.richTextBox1x1);
+            this.panel10.Controls.Add(this.richTextBox4x2);
+            this.panel10.Controls.Add(this.richTextBox1x9);
+            this.panel10.Controls.Add(this.richTextBox3x7);
+            this.panel10.Controls.Add(this.richTextBox4x3);
+            this.panel10.Controls.Add(this.richTextBox1x2);
+            this.panel10.Controls.Add(this.richTextBox5x1);
+            this.panel10.Controls.Add(this.richTextBox2x8);
+            this.panel10.Controls.Add(this.richTextBox5x3);
+            this.panel10.Controls.Add(this.richTextBox6x1);
+            this.panel10.Controls.Add(this.richTextBox6x3);
+            this.panel10.Controls.Add(this.richTextBox2x7);
+            this.panel10.Controls.Add(this.richTextBox1x8);
+            this.panel10.Controls.Add(this.richTextBox3x1);
+            this.panel10.Controls.Add(this.richTextBox2x6);
+            this.panel10.Controls.Add(this.richTextBox2x4);
+            this.panel10.Controls.Add(this.richTextBox2x5);
+            this.panel10.Controls.Add(this.richTextBox1x3);
+            this.panel10.Location = new System.Drawing.Point(12, 12);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(522, 522);
+            this.panel10.Size = new System.Drawing.Size(528, 528);
             this.panel10.TabIndex = 11;
             // 
-            // richTextBox1x1
+            // richTextBox1x9
             // 
-            this.richTextBox1x1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x1.Location = new System.Drawing.Point(0, 0);
-            this.richTextBox1x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x1.Name = "richTextBox1x1";
-            this.richTextBox1x1.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x1.TabIndex = 1;
-            this.richTextBox1x1.Text = "";
-            this.richTextBox1x1.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x9.Location = new System.Drawing.Point(470, 0);
+            this.richTextBox1x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x9.Name = "richTextBox1x9";
+            this.richTextBox1x9.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x9.TabIndex = 9;
+            this.richTextBox1x9.Text = "9";
+            this.richTextBox1x9.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x9.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x2
+            // richTextBox1x8
             // 
-            this.richTextBox1x2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x2.Location = new System.Drawing.Point(58, 0);
-            this.richTextBox1x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x2.Name = "richTextBox1x2";
-            this.richTextBox1x2.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x2.TabIndex = 2;
-            this.richTextBox1x2.Text = "2";
-            this.richTextBox1x2.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x8.Location = new System.Drawing.Point(412, 0);
+            this.richTextBox1x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x8.Name = "richTextBox1x8";
+            this.richTextBox1x8.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x8.TabIndex = 8;
+            this.richTextBox1x8.Text = "8";
+            this.richTextBox1x8.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x8.Leave += new System.EventHandler(this.LeaveFocus);
+            // 
+            // richTextBox1x7
+            // 
+            this.richTextBox1x7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x7.Location = new System.Drawing.Point(354, 0);
+            this.richTextBox1x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x7.Name = "richTextBox1x7";
+            this.richTextBox1x7.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x7.TabIndex = 7;
+            this.richTextBox1x7.Text = "7";
+            this.richTextBox1x7.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x7.Leave += new System.EventHandler(this.LeaveFocus);
+            // 
+            // richTextBox1x6
+            // 
+            this.richTextBox1x6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x6.Location = new System.Drawing.Point(293, 0);
+            this.richTextBox1x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x6.Name = "richTextBox1x6";
+            this.richTextBox1x6.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x6.TabIndex = 6;
+            this.richTextBox1x6.Text = "6";
+            this.richTextBox1x6.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x6.Leave += new System.EventHandler(this.LeaveFocus);
+            // 
+            // richTextBox1x5
+            // 
+            this.richTextBox1x5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x5.Location = new System.Drawing.Point(235, 0);
+            this.richTextBox1x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x5.Name = "richTextBox1x5";
+            this.richTextBox1x5.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x5.TabIndex = 5;
+            this.richTextBox1x5.Text = "5";
+            this.richTextBox1x5.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x5.Leave += new System.EventHandler(this.LeaveFocus);
+            // 
+            // richTextBox1x4
+            // 
+            this.richTextBox1x4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x4.Location = new System.Drawing.Point(177, 0);
+            this.richTextBox1x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x4.Name = "richTextBox1x4";
+            this.richTextBox1x4.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x4.TabIndex = 4;
+            this.richTextBox1x4.Text = "4";
+            this.richTextBox1x4.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x4.Leave += new System.EventHandler(this.LeaveFocus);
             // 
             // richTextBox1x3
             // 
@@ -1530,152 +1467,124 @@
             this.richTextBox1x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x3.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x4
+            // richTextBox1x2
             // 
-            this.richTextBox1x4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x4.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x4.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x4.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x4.Location = new System.Drawing.Point(0, 58);
-            this.richTextBox1x4.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x4.Name = "richTextBox1x4";
-            this.richTextBox1x4.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x4.TabIndex = 4;
-            this.richTextBox1x4.Text = "4";
-            this.richTextBox1x4.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x2.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x2.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x2.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x2.Location = new System.Drawing.Point(58, 0);
+            this.richTextBox1x2.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x2.Name = "richTextBox1x2";
+            this.richTextBox1x2.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x2.TabIndex = 2;
+            this.richTextBox1x2.Text = "2";
+            this.richTextBox1x2.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x2.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x5
+            // richTextBox1x1
             // 
-            this.richTextBox1x5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x5.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x5.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x5.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x5.Location = new System.Drawing.Point(58, 58);
-            this.richTextBox1x5.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x5.Name = "richTextBox1x5";
-            this.richTextBox1x5.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x5.TabIndex = 5;
-            this.richTextBox1x5.Text = "5";
-            this.richTextBox1x5.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1x1.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x1.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox1x1.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox1x1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1x1.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox1x1.Name = "richTextBox1x1";
+            this.richTextBox1x1.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox1x1.TabIndex = 1;
+            this.richTextBox1x1.Text = "";
+            this.richTextBox1x1.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox1x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox1x1.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x6
+            // button1
             // 
-            this.richTextBox1x6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x6.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x6.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x6.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x6.Location = new System.Drawing.Point(116, 58);
-            this.richTextBox1x6.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x6.Name = "richTextBox1x6";
-            this.richTextBox1x6.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x6.TabIndex = 6;
-            this.richTextBox1x6.Text = "6";
-            this.richTextBox1x6.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.button1.Location = new System.Drawing.Point(570, 258);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Save_Click);
             // 
-            // richTextBox1x7
+            // richTextBox4x7
             // 
-            this.richTextBox1x7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x7.Location = new System.Drawing.Point(0, 116);
-            this.richTextBox1x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x7.Name = "richTextBox1x7";
-            this.richTextBox1x7.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x7.TabIndex = 7;
-            this.richTextBox1x7.Text = "7";
-            this.richTextBox1x7.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox4x7.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x7.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x7.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox4x7.Location = new System.Drawing.Point(354, 177);
+            this.richTextBox4x7.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox4x7.Name = "richTextBox4x7";
+            this.richTextBox4x7.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox4x7.TabIndex = 34;
+            this.richTextBox4x7.Text = "7";
+            this.richTextBox4x7.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox4x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox4x7.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x8
+            // richTextBox4x8
             // 
-            this.richTextBox1x8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x8.Location = new System.Drawing.Point(58, 116);
-            this.richTextBox1x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x8.Name = "richTextBox1x8";
-            this.richTextBox1x8.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x8.TabIndex = 8;
-            this.richTextBox1x8.Text = "8";
-            this.richTextBox1x8.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox4x8.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x8.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x8.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox4x8.Location = new System.Drawing.Point(412, 177);
+            this.richTextBox4x8.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox4x8.Name = "richTextBox4x8";
+            this.richTextBox4x8.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox4x8.TabIndex = 35;
+            this.richTextBox4x8.Text = "8";
+            this.richTextBox4x8.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox4x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox4x8.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // richTextBox1x9
+            // richTextBox4x9
             // 
-            this.richTextBox1x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.richTextBox1x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
-            this.richTextBox1x9.Location = new System.Drawing.Point(116, 116);
-            this.richTextBox1x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
-            this.richTextBox1x9.Name = "richTextBox1x9";
-            this.richTextBox1x9.Size = new System.Drawing.Size(58, 58);
-            this.richTextBox1x9.TabIndex = 9;
-            this.richTextBox1x9.Text = "9";
-            this.richTextBox1x9.Enter += new System.EventHandler(this.HighlightFocus);
-            this.richTextBox1x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
-            this.richTextBox1x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox4x9.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::Assignment5.Properties.Settings.Default, "fontSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x9.DataBindings.Add(new System.Windows.Forms.Binding("MaxLength", global::Assignment5.Properties.Settings.Default, "lengthSettings", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.richTextBox4x9.Font = global::Assignment5.Properties.Settings.Default.fontSettings;
+            this.richTextBox4x9.Location = new System.Drawing.Point(470, 177);
+            this.richTextBox4x9.MaxLength = global::Assignment5.Properties.Settings.Default.lengthSettings;
+            this.richTextBox4x9.Name = "richTextBox4x9";
+            this.richTextBox4x9.Size = new System.Drawing.Size(58, 58);
+            this.richTextBox4x9.TabIndex = 36;
+            this.richTextBox4x9.Text = "9";
+            this.richTextBox4x9.Enter += new System.EventHandler(this.HighlightFocus);
+            this.richTextBox4x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
+            this.richTextBox4x9.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // panel1
+            // label1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.richTextBox1x9);
-            this.panel1.Controls.Add(this.richTextBox1x8);
-            this.panel1.Controls.Add(this.richTextBox1x7);
-            this.panel1.Controls.Add(this.richTextBox1x6);
-            this.panel1.Controls.Add(this.richTextBox1x5);
-            this.panel1.Controls.Add(this.richTextBox1x4);
-            this.panel1.Controls.Add(this.richTextBox1x3);
-            this.panel1.Controls.Add(this.richTextBox1x2);
-            this.panel1.Controls.Add(this.richTextBox1x1);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(174, 174);
-            this.panel1.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 543);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 561);
+            this.ClientSize = new System.Drawing.Size(693, 564);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.newPuzzleButton);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
             this.difficultyContextMenuStrip.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.RichTextBox richTextBox2x9;
         private System.Windows.Forms.RichTextBox richTextBox2x8;
         private System.Windows.Forms.RichTextBox richTextBox2x1;
@@ -1694,15 +1603,12 @@
         private System.Windows.Forms.RichTextBox richTextBox3x3;
         private System.Windows.Forms.RichTextBox richTextBox3x2;
         private System.Windows.Forms.RichTextBox richTextBox3x6;
-        private System.Windows.Forms.RichTextBox richTextBox4x9;
         private System.Windows.Forms.RichTextBox richTextBox4x5;
-        private System.Windows.Forms.RichTextBox richTextBox4x8;
         private System.Windows.Forms.RichTextBox richTextBox4x6;
         private System.Windows.Forms.RichTextBox richTextBox4x4;
         private System.Windows.Forms.RichTextBox richTextBox4x2;
         private System.Windows.Forms.RichTextBox richTextBox4x1;
         private System.Windows.Forms.RichTextBox richTextBox4x3;
-        private System.Windows.Forms.RichTextBox richTextBox4x7;
         private System.Windows.Forms.RichTextBox richTextBox5x9;
         private System.Windows.Forms.RichTextBox richTextBox5x2;
         private System.Windows.Forms.RichTextBox richTextBox5x5;
@@ -1754,7 +1660,6 @@
         private System.Windows.Forms.ToolStripMenuItem mediumToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hardToolStripMenuItem;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RichTextBox richTextBox1x9;
         private System.Windows.Forms.RichTextBox richTextBox1x8;
         private System.Windows.Forms.RichTextBox richTextBox1x7;
@@ -1764,6 +1669,11 @@
         private System.Windows.Forms.RichTextBox richTextBox1x3;
         private System.Windows.Forms.RichTextBox richTextBox1x2;
         private System.Windows.Forms.RichTextBox richTextBox1x1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBox4x7;
+        private System.Windows.Forms.RichTextBox richTextBox4x8;
+        private System.Windows.Forms.RichTextBox richTextBox4x9;
+        private System.Windows.Forms.Label label1;
     }
 }
 
