@@ -18,7 +18,6 @@ namespace Assignment5
         public List<string> puzzles = new List<string>();
         public char[] currentPuzzle = new char[81];
         public string difficulty = "easy";
-
         public Form1()
         {
             InitializeComponent();
@@ -60,6 +59,7 @@ namespace Assignment5
             List<string> difficultyPuzzles = puzzles.FindAll(o => o.Contains(difficulty));
             int index = random.Next(difficultyPuzzles.Count);
             currentPuzzlePath += difficultyPuzzles[index];
+            label1.Text = currentPuzzlePath;
             BuildNewPuzzle();
         }
 
@@ -71,7 +71,7 @@ namespace Assignment5
             while ((line = stream.ReadLine()) != null)
                 puzzle += line;
             char[] newPuzzle = puzzle.Substring(0, 81).ToCharArray();
-            currentPuzzle = puzzle.Substring(81).ToCharArray();
+            currentPuzzle = puzzle.Substring(81, 81).ToCharArray();
             stream.Close();
             PopulateBoard(newPuzzle);
         }
@@ -90,28 +90,28 @@ namespace Assignment5
 
         private void PopulateBoard(char[] newPuzzle)
         {
+            var allRichTextBoxes = panel10.Controls.OfType<RichTextBox>();
+            var sortedRichTextBoxes = allRichTextBoxes
+                     .OrderBy(i => i.Name)
+                     .ToArray();
+
             int index = 0;
-            foreach (Control possiblePanel in panel10.Controls)
+            foreach (var richTextBox in sortedRichTextBoxes)
             {
-                if (possiblePanel is Panel)
+                if (newPuzzle[index] == '0')
+                    richTextBox.Text = "";
+                else
                 {
-                    foreach (Control possibleRichTextBox in possiblePanel.Controls)
-                    {
-                        if (possibleRichTextBox is RichTextBox)
-                        {
-                            if (newPuzzle[index] == '0')
-                                possibleRichTextBox.Text = "";
-                            else
-                            {
-                                possibleRichTextBox.Text = newPuzzle[index].ToString();
-                                (possibleRichTextBox as RichTextBox).ReadOnly = true;
-                            }
-                            index++;
-                        }
-                    }
+                    richTextBox.Text = newPuzzle[index].ToString();
+                    (richTextBox as RichTextBox).ReadOnly = true;
                 }
+                index++;
             }
         }
 
+        private void Save_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
