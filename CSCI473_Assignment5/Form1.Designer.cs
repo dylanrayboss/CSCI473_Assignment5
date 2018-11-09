@@ -117,7 +117,7 @@
             this.richTextBox4x7 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4x9 = new System.Windows.Forms.RichTextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.resumedSavedButton = new System.Windows.Forms.Button();
             this.difficultyContextMenuStrip.SuspendLayout();
             this.panel10.SuspendLayout();
             this.SuspendLayout();
@@ -1557,21 +1557,22 @@
             this.richTextBox4x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x9.Leave += new System.EventHandler(this.LeaveFocus);
             // 
-            // label1
+            // resumedSavedButton
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 543);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "label1";
+            this.resumedSavedButton.Location = new System.Drawing.Point(570, 319);
+            this.resumedSavedButton.Name = "resumedSavedButton";
+            this.resumedSavedButton.Size = new System.Drawing.Size(89, 23);
+            this.resumedSavedButton.TabIndex = 13;
+            this.resumedSavedButton.Text = "Resume Saved";
+            this.resumedSavedButton.UseVisualStyleBackColor = true;
+            this.resumedSavedButton.Click += new System.EventHandler(this.ResumedSave_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 564);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.resumedSavedButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.newPuzzleButton);
@@ -1580,7 +1581,6 @@
             this.difficultyContextMenuStrip.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1673,7 +1673,7 @@
         private System.Windows.Forms.RichTextBox richTextBox4x7;
         private System.Windows.Forms.RichTextBox richTextBox4x8;
         private System.Windows.Forms.RichTextBox richTextBox4x9;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button resumedSavedButton;
     }
 }
 

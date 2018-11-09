@@ -18,10 +18,17 @@ namespace Assignment5
         public List<string> puzzles = new List<string>();
         public char[] currentPuzzle = new char[81];
         public string difficulty = "easy";
+        IEnumerable<RichTextBox> allRichTextBoxes;
+        RichTextBox[] sortedRichTextBoxes;
+
         public Form1()
         {
             InitializeComponent();
             GetPuzzles();
+            allRichTextBoxes = panel10.Controls.OfType<RichTextBox>();
+            sortedRichTextBoxes = allRichTextBoxes
+                 .OrderBy(i => i.Name)
+                 .ToArray();
         }
     
 
@@ -59,7 +66,6 @@ namespace Assignment5
             List<string> difficultyPuzzles = puzzles.FindAll(o => o.Contains(difficulty));
             int index = random.Next(difficultyPuzzles.Count);
             currentPuzzlePath += difficultyPuzzles[index];
-            label1.Text = currentPuzzlePath;
             BuildNewPuzzle();
         }
 
@@ -72,6 +78,10 @@ namespace Assignment5
                 puzzle += line;
             char[] newPuzzle = puzzle.Substring(0, 81).ToCharArray();
             currentPuzzle = puzzle.Substring(81, 81).ToCharArray();
+            if (puzzle.Length > 162)
+            {
+                newPuzzle = puzzle.Substring(162, 81).ToCharArray();
+            }
             stream.Close();
             PopulateBoard(newPuzzle);
         }
@@ -90,14 +100,10 @@ namespace Assignment5
 
         private void PopulateBoard(char[] newPuzzle)
         {
-            var allRichTextBoxes = panel10.Controls.OfType<RichTextBox>();
-            var sortedRichTextBoxes = allRichTextBoxes
-                     .OrderBy(i => i.Name)
-                     .ToArray();
-
             int index = 0;
             foreach (var richTextBox in sortedRichTextBoxes)
             {
+                richTextBox.ReadOnly = false;
                 if (newPuzzle[index] == '0')
                     richTextBox.Text = "";
                 else
@@ -111,7 +117,37 @@ namespace Assignment5
 
         private void Save_Click(object sender, EventArgs e)
         {
+            File.Copy(currentPuzzlePath, @"..\..\puzzles\saved\saved.txt", true);
+            int index = 0;
+            int newlineCounter = 1;
+            using (StreamWriter sw = File.AppendText(@"..\..\puzzles\saved\saved.txt"))
+            {
+                sw.WriteLine();
+                sw.WriteLine();
 
+                foreach (var richTextBox in sortedRichTextBoxes)
+                {
+                    if (richTextBox.Text == "")
+                        sw.Write('0');
+                    else
+                    {
+                        sw.Write(richTextBox.Text);
+                    }
+                    newlineCounter++;
+                    index++;
+                    if (newlineCounter > 9)
+                    {
+                        sw.WriteLine();
+                        newlineCounter = 1;
+                    }
+                }
+            }
+        }
+
+        private void ResumedSave_Click(object sender, EventArgs e)
+        {
+            currentPuzzlePath = (@"..\..\puzzles\saved\saved.txt");
+            BuildNewPuzzle();
         }
     }
 }
