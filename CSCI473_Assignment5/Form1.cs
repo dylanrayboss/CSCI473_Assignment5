@@ -256,6 +256,34 @@ namespace Assignment5
             sortedRichTextBoxes[randomIndexValue].ForeColor = Color.Salmon;
         }
 
+        private void SubmitButton_Click(object sender, EventArgs e)
+        {
+            bool wowGoodJob = false; 
+            for (int i=0; i<81; i++)
+            {
+                if (sortedRichTextBoxes[i].Text!=currentPuzzleSolution[i].ToString())
+                {
+                    wowGoodJob = false;
+                    break;
+                }
+                else
+                {
+                    wowGoodJob = true;
+                }
+            }
+
+            if (wowGoodJob == false)
+            {
+                MessageBox.Show("You made a mistake.");
+            }
+
+            if (wowGoodJob == true)
+            {
+                MessageBox.Show("You finished the puzzle with no mistakes!");
+            }
+            
+        }
+
         private void UpdateTimer()
         {
             timerText.Text = String.Format("{0}:{1}:{2}", hours.ToString("00"), minutes.ToString("00"), seconds.ToString("00"));

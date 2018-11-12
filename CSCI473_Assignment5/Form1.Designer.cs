@@ -123,6 +123,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.timerText = new System.Windows.Forms.Label();
             this.CheatButton = new System.Windows.Forms.Button();
+            this.SubmitButton = new System.Windows.Forms.Button();
             this.difficultyContextMenuStrip.SuspendLayout();
             this.panel10.SuspendLayout();
             this.SuspendLayout();
@@ -1779,11 +1780,22 @@
             this.CheatButton.UseVisualStyleBackColor = true;
             this.CheatButton.Click += new System.EventHandler(this.CheatButton_Click);
             // 
+            // SubmitButton
+            // 
+            this.SubmitButton.Location = new System.Drawing.Point(744, 180);
+            this.SubmitButton.Name = "SubmitButton";
+            this.SubmitButton.Size = new System.Drawing.Size(156, 23);
+            this.SubmitButton.TabIndex = 23;
+            this.SubmitButton.Text = "Submit";
+            this.SubmitButton.UseVisualStyleBackColor = true;
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 564);
+            this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.CheatButton);
             this.Controls.Add(this.timerText);
             this.Controls.Add(this.button2);
@@ -1896,6 +1908,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label timerText;
         private System.Windows.Forms.Button CheatButton;
+        private System.Windows.Forms.Button SubmitButton;
     }
 }
 
