@@ -122,6 +122,7 @@
             this.pauseButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.timerText = new System.Windows.Forms.Label();
+            this.CheatButton = new System.Windows.Forms.Button();
             this.difficultyContextMenuStrip.SuspendLayout();
             this.panel10.SuspendLayout();
             this.SuspendLayout();
@@ -1385,26 +1386,26 @@
             this.mediumToolStripMenuItem,
             this.hardToolStripMenuItem});
             this.difficultyContextMenuStrip.Name = "difficultyContextMenuStrip";
-            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(120, 70);
+            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(111, 70);
             // 
             // easyToolStripMenuItem
             // 
             this.easyToolStripMenuItem.Name = "easyToolStripMenuItem";
-            this.easyToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.easyToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.easyToolStripMenuItem.Text = "Easy";
             this.easyToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // mediumToolStripMenuItem
             // 
             this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
-            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.mediumToolStripMenuItem.Text = "Medium";
             this.mediumToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // hardToolStripMenuItem
             // 
             this.hardToolStripMenuItem.Name = "hardToolStripMenuItem";
-            this.hardToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.hardToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.hardToolStripMenuItem.Text = "Hard";
             this.hardToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
@@ -1768,11 +1769,22 @@
             this.timerText.TabIndex = 20;
             this.timerText.Text = "00:00:00";
             // 
+            // CheatButton
+            // 
+            this.CheatButton.Location = new System.Drawing.Point(825, 151);
+            this.CheatButton.Name = "CheatButton";
+            this.CheatButton.Size = new System.Drawing.Size(75, 23);
+            this.CheatButton.TabIndex = 22;
+            this.CheatButton.Text = "Cheat";
+            this.CheatButton.UseVisualStyleBackColor = true;
+            this.CheatButton.Click += new System.EventHandler(this.CheatButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 564);
+            this.Controls.Add(this.CheatButton);
             this.Controls.Add(this.timerText);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pauseButton);
@@ -1883,6 +1895,7 @@
         private System.Windows.Forms.Button pauseButton;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label timerText;
+        private System.Windows.Forms.Button CheatButton;
     }
 }
 
