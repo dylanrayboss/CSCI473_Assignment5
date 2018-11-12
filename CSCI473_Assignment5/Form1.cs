@@ -259,7 +259,7 @@ namespace Assignment5
         private void SubmitButton_Click(object sender, EventArgs e)
         {
             bool wowGoodJob = false; 
-            for (int i=0; i<82; i++)
+            for (int i=0; i<81; i++)
             {
                 if (sortedRichTextBoxes[i].Text!=currentPuzzleSolution[i].ToString())
                 {
