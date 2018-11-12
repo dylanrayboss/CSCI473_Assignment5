@@ -259,18 +259,29 @@ namespace Assignment5
         private void SubmitButton_Click(object sender, EventArgs e)
         {
             bool wowGoodJob = false; 
-            for (int i=0; i<=81; i++)
+            for (int i=0; i<82; i++)
             {
                 if (sortedRichTextBoxes[i].Text!=currentPuzzleSolution[i].ToString())
                 {
-                    MessageBox.Show("You made a mistake.");
+                    wowGoodJob = false;
+                    break;
                 }
                 else
                 {
-                    MessageBox.Show("You finished the puzzle with no mistakes!");
                     wowGoodJob = true;
                 }
             }
+
+            if (wowGoodJob == false)
+            {
+                MessageBox.Show("You made a mistake.");
+            }
+
+            if (wowGoodJob == true)
+            {
+                MessageBox.Show("You finished the puzzle with no mistakes!");
+            }
+            
         }
 
         private void UpdateTimer()
