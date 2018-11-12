@@ -141,10 +141,13 @@
             this.richTextBox2x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x9.TabIndex = 18;
             this.richTextBox2x9.Text = "9";
+            this.richTextBox2x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x8
             // 
@@ -159,10 +162,13 @@
             this.richTextBox2x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x8.TabIndex = 17;
             this.richTextBox2x8.Text = "8";
+            this.richTextBox2x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x1
             // 
@@ -177,10 +183,13 @@
             this.richTextBox2x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x1.TabIndex = 10;
             this.richTextBox2x1.Text = "1";
+            this.richTextBox2x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x7
             // 
@@ -195,10 +204,13 @@
             this.richTextBox2x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x7.TabIndex = 16;
             this.richTextBox2x7.Text = "7";
+            this.richTextBox2x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x2
             // 
@@ -213,10 +225,13 @@
             this.richTextBox2x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x2.TabIndex = 11;
             this.richTextBox2x2.Text = "2";
+            this.richTextBox2x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x6
             // 
@@ -231,10 +246,13 @@
             this.richTextBox2x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x6.TabIndex = 15;
             this.richTextBox2x6.Text = "6";
+            this.richTextBox2x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x3
             // 
@@ -249,10 +267,13 @@
             this.richTextBox2x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x3.TabIndex = 12;
             this.richTextBox2x3.Text = "3";
+            this.richTextBox2x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x5
             // 
@@ -267,10 +288,13 @@
             this.richTextBox2x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x5.TabIndex = 14;
             this.richTextBox2x5.Text = "5";
+            this.richTextBox2x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox2x4
             // 
@@ -285,10 +309,13 @@
             this.richTextBox2x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox2x4.TabIndex = 13;
             this.richTextBox2x4.Text = "4";
+            this.richTextBox2x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox2x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox2x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox2x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox2x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox2x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox2x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x9
             // 
@@ -303,10 +330,13 @@
             this.richTextBox3x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x9.TabIndex = 27;
             this.richTextBox3x9.Text = "9";
+            this.richTextBox3x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x8
             // 
@@ -321,10 +351,13 @@
             this.richTextBox3x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x8.TabIndex = 26;
             this.richTextBox3x8.Text = "8";
+            this.richTextBox3x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x4
             // 
@@ -339,10 +372,13 @@
             this.richTextBox3x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x4.TabIndex = 22;
             this.richTextBox3x4.Text = "4";
+            this.richTextBox3x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x1
             // 
@@ -357,10 +393,13 @@
             this.richTextBox3x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x1.TabIndex = 19;
             this.richTextBox3x1.Text = "1";
+            this.richTextBox3x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x5
             // 
@@ -375,10 +414,13 @@
             this.richTextBox3x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x5.TabIndex = 23;
             this.richTextBox3x5.Text = "5";
+            this.richTextBox3x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x7
             // 
@@ -393,10 +435,13 @@
             this.richTextBox3x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x7.TabIndex = 25;
             this.richTextBox3x7.Text = "7";
+            this.richTextBox3x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x3
             // 
@@ -411,10 +456,13 @@
             this.richTextBox3x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x3.TabIndex = 21;
             this.richTextBox3x3.Text = "3";
+            this.richTextBox3x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x2
             // 
@@ -429,10 +477,13 @@
             this.richTextBox3x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x2.TabIndex = 20;
             this.richTextBox3x2.Text = "2";
+            this.richTextBox3x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox3x6
             // 
@@ -447,10 +498,13 @@
             this.richTextBox3x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox3x6.TabIndex = 24;
             this.richTextBox3x6.Text = "6";
+            this.richTextBox3x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox3x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox3x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox3x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox3x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox3x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox3x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x9
             // 
@@ -465,10 +519,13 @@
             this.richTextBox6x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x9.TabIndex = 54;
             this.richTextBox6x9.Text = "9";
+            this.richTextBox6x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x5
             // 
@@ -483,10 +540,13 @@
             this.richTextBox6x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x5.TabIndex = 50;
             this.richTextBox6x5.Text = "5";
+            this.richTextBox6x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x2
             // 
@@ -501,10 +561,13 @@
             this.richTextBox6x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x2.TabIndex = 47;
             this.richTextBox6x2.Text = "2";
+            this.richTextBox6x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x4
             // 
@@ -519,10 +582,13 @@
             this.richTextBox6x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x4.TabIndex = 49;
             this.richTextBox6x4.Text = "4";
+            this.richTextBox6x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x1
             // 
@@ -537,10 +603,13 @@
             this.richTextBox6x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x1.TabIndex = 46;
             this.richTextBox6x1.Text = "1";
+            this.richTextBox6x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x7
             // 
@@ -555,10 +624,13 @@
             this.richTextBox6x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x7.TabIndex = 52;
             this.richTextBox6x7.Text = "7";
+            this.richTextBox6x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x6
             // 
@@ -573,10 +645,13 @@
             this.richTextBox6x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x6.TabIndex = 51;
             this.richTextBox6x6.Text = "6";
+            this.richTextBox6x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x8
             // 
@@ -591,10 +666,13 @@
             this.richTextBox6x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x8.TabIndex = 53;
             this.richTextBox6x8.Text = "8";
+            this.richTextBox6x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox6x3
             // 
@@ -609,10 +687,13 @@
             this.richTextBox6x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox6x3.TabIndex = 48;
             this.richTextBox6x3.Text = "3";
+            this.richTextBox6x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox6x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox6x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox6x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox6x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox6x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox6x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x9
             // 
@@ -627,10 +708,13 @@
             this.richTextBox5x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x9.TabIndex = 45;
             this.richTextBox5x9.Text = "9";
+            this.richTextBox5x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x2
             // 
@@ -645,10 +729,13 @@
             this.richTextBox5x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x2.TabIndex = 38;
             this.richTextBox5x2.Text = "2";
+            this.richTextBox5x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x5
             // 
@@ -663,10 +750,13 @@
             this.richTextBox5x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x5.TabIndex = 41;
             this.richTextBox5x5.Text = "5";
+            this.richTextBox5x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x7
             // 
@@ -681,10 +771,13 @@
             this.richTextBox5x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x7.TabIndex = 43;
             this.richTextBox5x7.Text = "7";
+            this.richTextBox5x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x8
             // 
@@ -699,10 +792,13 @@
             this.richTextBox5x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x8.TabIndex = 44;
             this.richTextBox5x8.Text = "8";
+            this.richTextBox5x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x3
             // 
@@ -717,10 +813,13 @@
             this.richTextBox5x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x3.TabIndex = 39;
             this.richTextBox5x3.Text = "3";
+            this.richTextBox5x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x6
             // 
@@ -735,10 +834,13 @@
             this.richTextBox5x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x6.TabIndex = 42;
             this.richTextBox5x6.Text = "6";
+            this.richTextBox5x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x1
             // 
@@ -753,10 +855,13 @@
             this.richTextBox5x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x1.TabIndex = 37;
             this.richTextBox5x1.Text = "1";
+            this.richTextBox5x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox5x4
             // 
@@ -771,10 +876,13 @@
             this.richTextBox5x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox5x4.TabIndex = 40;
             this.richTextBox5x4.Text = "4";
+            this.richTextBox5x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox5x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox5x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox5x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox5x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox5x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox5x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x5
             // 
@@ -789,10 +897,13 @@
             this.richTextBox4x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x5.TabIndex = 32;
             this.richTextBox4x5.Text = "5";
+            this.richTextBox4x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x6
             // 
@@ -807,10 +918,13 @@
             this.richTextBox4x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x6.TabIndex = 33;
             this.richTextBox4x6.Text = "6";
+            this.richTextBox4x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x4
             // 
@@ -825,10 +939,13 @@
             this.richTextBox4x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x4.TabIndex = 31;
             this.richTextBox4x4.Text = "4";
+            this.richTextBox4x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x2
             // 
@@ -843,10 +960,13 @@
             this.richTextBox4x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x2.TabIndex = 29;
             this.richTextBox4x2.Text = "2";
+            this.richTextBox4x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x1
             // 
@@ -861,10 +981,13 @@
             this.richTextBox4x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x1.TabIndex = 28;
             this.richTextBox4x1.Text = "1";
+            this.richTextBox4x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x3
             // 
@@ -879,10 +1002,13 @@
             this.richTextBox4x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x3.TabIndex = 30;
             this.richTextBox4x3.Text = "3";
+            this.richTextBox4x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x9
             // 
@@ -897,10 +1023,13 @@
             this.richTextBox9x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x9.TabIndex = 63;
             this.richTextBox9x9.Text = "9";
+            this.richTextBox9x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x2
             // 
@@ -915,10 +1044,13 @@
             this.richTextBox9x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x2.TabIndex = 56;
             this.richTextBox9x2.Text = "2";
+            this.richTextBox9x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x5
             // 
@@ -933,10 +1065,13 @@
             this.richTextBox9x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x5.TabIndex = 59;
             this.richTextBox9x5.Text = "5";
+            this.richTextBox9x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x6
             // 
@@ -951,10 +1086,13 @@
             this.richTextBox9x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x6.TabIndex = 60;
             this.richTextBox9x6.Text = "6";
+            this.richTextBox9x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x3
             // 
@@ -969,10 +1107,13 @@
             this.richTextBox9x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x3.TabIndex = 57;
             this.richTextBox9x3.Text = "3";
+            this.richTextBox9x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x7
             // 
@@ -987,10 +1128,13 @@
             this.richTextBox9x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x7.TabIndex = 61;
             this.richTextBox9x7.Text = "7";
+            this.richTextBox9x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x1
             // 
@@ -1005,10 +1149,13 @@
             this.richTextBox9x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x1.TabIndex = 55;
             this.richTextBox9x1.Text = "1";
+            this.richTextBox9x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x4
             // 
@@ -1023,10 +1170,13 @@
             this.richTextBox9x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x4.TabIndex = 58;
             this.richTextBox9x4.Text = "4";
+            this.richTextBox9x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox9x8
             // 
@@ -1041,10 +1191,13 @@
             this.richTextBox9x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox9x8.TabIndex = 62;
             this.richTextBox9x8.Text = "8";
+            this.richTextBox9x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox9x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox9x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox9x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox9x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox9x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox9x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x9
             // 
@@ -1059,10 +1212,13 @@
             this.richTextBox8x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x9.TabIndex = 54;
             this.richTextBox8x9.Text = "9";
+            this.richTextBox8x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x5
             // 
@@ -1077,10 +1233,13 @@
             this.richTextBox8x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x5.TabIndex = 50;
             this.richTextBox8x5.Text = "5";
+            this.richTextBox8x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x2
             // 
@@ -1095,10 +1254,13 @@
             this.richTextBox8x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x2.TabIndex = 47;
             this.richTextBox8x2.Text = "2";
+            this.richTextBox8x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x7
             // 
@@ -1113,10 +1275,13 @@
             this.richTextBox8x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x7.TabIndex = 52;
             this.richTextBox8x7.Text = "7";
+            this.richTextBox8x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x4
             // 
@@ -1131,10 +1296,13 @@
             this.richTextBox8x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x4.TabIndex = 49;
             this.richTextBox8x4.Text = "4";
+            this.richTextBox8x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x8
             // 
@@ -1149,10 +1317,13 @@
             this.richTextBox8x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x8.TabIndex = 53;
             this.richTextBox8x8.Text = "8";
+            this.richTextBox8x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x1
             // 
@@ -1167,10 +1338,13 @@
             this.richTextBox8x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x1.TabIndex = 46;
             this.richTextBox8x1.Text = "1";
+            this.richTextBox8x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x3
             // 
@@ -1185,10 +1359,13 @@
             this.richTextBox8x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x3.TabIndex = 48;
             this.richTextBox8x3.Text = "3";
+            this.richTextBox8x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox8x6
             // 
@@ -1203,10 +1380,13 @@
             this.richTextBox8x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox8x6.TabIndex = 51;
             this.richTextBox8x6.Text = "6";
+            this.richTextBox8x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox8x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox8x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox8x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox8x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox8x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox8x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x9
             // 
@@ -1221,10 +1401,13 @@
             this.richTextBox7x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x9.TabIndex = 45;
             this.richTextBox7x9.Text = "9";
+            this.richTextBox7x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x5
             // 
@@ -1239,10 +1422,13 @@
             this.richTextBox7x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x5.TabIndex = 41;
             this.richTextBox7x5.Text = "5";
+            this.richTextBox7x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x7
             // 
@@ -1257,10 +1443,13 @@
             this.richTextBox7x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x7.TabIndex = 43;
             this.richTextBox7x7.Text = "7";
+            this.richTextBox7x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x8
             // 
@@ -1275,10 +1464,13 @@
             this.richTextBox7x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x8.TabIndex = 44;
             this.richTextBox7x8.Text = "8";
+            this.richTextBox7x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x3
             // 
@@ -1293,10 +1485,13 @@
             this.richTextBox7x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x3.TabIndex = 39;
             this.richTextBox7x3.Text = "3";
+            this.richTextBox7x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x6
             // 
@@ -1311,10 +1506,13 @@
             this.richTextBox7x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x6.TabIndex = 42;
             this.richTextBox7x6.Text = "6";
+            this.richTextBox7x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x1
             // 
@@ -1329,10 +1527,13 @@
             this.richTextBox7x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x1.TabIndex = 37;
             this.richTextBox7x1.Text = "1";
+            this.richTextBox7x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x4
             // 
@@ -1347,10 +1548,13 @@
             this.richTextBox7x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x4.TabIndex = 40;
             this.richTextBox7x4.Text = "4";
+            this.richTextBox7x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox7x2
             // 
@@ -1365,10 +1569,13 @@
             this.richTextBox7x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox7x2.TabIndex = 38;
             this.richTextBox7x2.Text = "2";
+            this.richTextBox7x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox7x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox7x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox7x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox7x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox7x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox7x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // newPuzzleButton
             // 
@@ -1387,26 +1594,26 @@
             this.mediumToolStripMenuItem,
             this.hardToolStripMenuItem});
             this.difficultyContextMenuStrip.Name = "difficultyContextMenuStrip";
-            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(111, 70);
+            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(120, 70);
             // 
             // easyToolStripMenuItem
             // 
             this.easyToolStripMenuItem.Name = "easyToolStripMenuItem";
-            this.easyToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.easyToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.easyToolStripMenuItem.Text = "Easy";
             this.easyToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // mediumToolStripMenuItem
             // 
             this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
-            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.mediumToolStripMenuItem.Text = "Medium";
             this.mediumToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // hardToolStripMenuItem
             // 
             this.hardToolStripMenuItem.Name = "hardToolStripMenuItem";
-            this.hardToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.hardToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.hardToolStripMenuItem.Text = "Hard";
             this.hardToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
@@ -1512,10 +1719,13 @@
             this.richTextBox4x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x9.TabIndex = 36;
             this.richTextBox4x9.Text = "9";
+            this.richTextBox4x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x8
             // 
@@ -1530,10 +1740,13 @@
             this.richTextBox4x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x8.TabIndex = 35;
             this.richTextBox4x8.Text = "8";
+            this.richTextBox4x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox4x7
             // 
@@ -1548,10 +1761,13 @@
             this.richTextBox4x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox4x7.TabIndex = 34;
             this.richTextBox4x7.Text = "7";
+            this.richTextBox4x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox4x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox4x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox4x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox4x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox4x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox4x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x7
             // 
@@ -1566,10 +1782,13 @@
             this.richTextBox1x7.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x7.TabIndex = 7;
             this.richTextBox1x7.Text = "7";
+            this.richTextBox1x7.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x7.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x7.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x7.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x6
             // 
@@ -1584,10 +1803,13 @@
             this.richTextBox1x6.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x6.TabIndex = 6;
             this.richTextBox1x6.Text = "6";
+            this.richTextBox1x6.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x6.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x6.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x6.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x4
             // 
@@ -1602,10 +1824,13 @@
             this.richTextBox1x4.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x4.TabIndex = 4;
             this.richTextBox1x4.Text = "4";
+            this.richTextBox1x4.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x4.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x4.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x4.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x5
             // 
@@ -1620,10 +1845,13 @@
             this.richTextBox1x5.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x5.TabIndex = 5;
             this.richTextBox1x5.Text = "5";
+            this.richTextBox1x5.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x5.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x5.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x5.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x1
             // 
@@ -1638,10 +1866,13 @@
             this.richTextBox1x1.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x1.TabIndex = 1;
             this.richTextBox1x1.Text = "";
+            this.richTextBox1x1.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x1.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x1.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x1.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x9
             // 
@@ -1656,10 +1887,13 @@
             this.richTextBox1x9.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x9.TabIndex = 9;
             this.richTextBox1x9.Text = "9";
+            this.richTextBox1x9.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x9.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x9.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x9.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x2
             // 
@@ -1674,10 +1908,13 @@
             this.richTextBox1x2.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x2.TabIndex = 2;
             this.richTextBox1x2.Text = "2";
+            this.richTextBox1x2.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x2.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x2.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x2.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x8
             // 
@@ -1692,10 +1929,13 @@
             this.richTextBox1x8.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x8.TabIndex = 8;
             this.richTextBox1x8.Text = "8";
+            this.richTextBox1x8.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x8.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x8.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x8.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // richTextBox1x3
             // 
@@ -1710,10 +1950,13 @@
             this.richTextBox1x3.Size = new System.Drawing.Size(58, 58);
             this.richTextBox1x3.TabIndex = 3;
             this.richTextBox1x3.Text = "3";
+            this.richTextBox1x3.Click += new System.EventHandler(this.RemoveCaret);
+            this.richTextBox1x3.TextChanged += new System.EventHandler(this.RemoveCaret);
             this.richTextBox1x3.Enter += new System.EventHandler(this.HighlightFocus);
             this.richTextBox1x3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StartTimer);
             this.richTextBox1x3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CharacterCheck);
             this.richTextBox1x3.Leave += new System.EventHandler(this.LeaveFocus);
+            this.richTextBox1x3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RemoveCaret);
             // 
             // button1
             // 

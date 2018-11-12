@@ -8,26 +8,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Assignment5
 {
     public partial class Form1 : Form
     {
+        [DllImport("user32.dll")]
+        static extern bool HideCaret(IntPtr hWnd);
         // variables
         public short hours, minutes, seconds = 0;
         public string difficulty = "easy";
         IEnumerable<RichTextBox> allRichTextBoxes;
         RichTextBox[] sortedRichTextBoxes;
+        Color currentBackColor = Color.White;
 
-        // directories and files
+        // directories and file paths
         public string openPuzzlesPath = (@"..\..\directory.txt");
         public string currentPuzzlePath = (@"..\..\puzzles\");
         public string savedPuzzlePath = null;
         public string openedPuzzle = null;
         // puzzle arrays
-        public List<string> puzzles = new List<string>();
-        public char[] currentPuzzleSolution = new char[81];
-        public char[] savedPuzzle = new char[81];
+        public List<string> puzzles = new List<string>();           // list of puzzles
+        public char[] currentPuzzleSolution = new char[81];         // solution of current puzzle
+        public char[] savedPuzzle = new char[81];                   // copy of puzzle that is saved
 
         public Form1()
         {
@@ -44,20 +48,21 @@ namespace Assignment5
 
         private void CharacterCheck(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            if (!char.IsControl(e.KeyChar) && (!char.IsDigit(e.KeyChar) || (e.KeyChar == '0')) && (e.KeyChar != '.'))
                 e.Handled = true;
         }
 
         private void HighlightFocus(object sender, EventArgs e)
         {
             RichTextBox richTextBox = (sender as RichTextBox);
+            currentBackColor = richTextBox.BackColor;
             richTextBox.BackColor = Color.SkyBlue;
         }
 
         private void LeaveFocus(object sender, EventArgs e)
         {
             RichTextBox richTextBox = (sender as RichTextBox);
-            richTextBox.BackColor = Color.White;
+            richTextBox.BackColor = currentBackColor;
         }
 
         private void GetPuzzles()
@@ -124,13 +129,17 @@ namespace Assignment5
             {
                 richTextBox.ReadOnly = false;
                 if (currentPuzzle[index] == '0')
+                {
                     richTextBox.Text = "";
+                    richTextBox.BackColor = Color.White;
+                }
                 else
                 {
                     if (newPuzzle[index] != '0')
                     {
                         (richTextBox as RichTextBox).ReadOnly = true;
                     }
+                    richTextBox.BackColor = Color.FromArgb(233, 233, 233);
                     richTextBox.Text = currentPuzzle[index].ToString();
                 }
                 index++;
@@ -229,6 +238,7 @@ namespace Assignment5
 
         private void StartTimer(object sender, KeyEventArgs e)
         {
+            // here
             if ((sender as RichTextBox).ReadOnly == false)
                 timer.Enabled = true;
         }
@@ -258,30 +268,44 @@ namespace Assignment5
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            bool wowGoodJob = false; 
-            for (int i=0; i<81; i++)
-            {
-                if (sortedRichTextBoxes[i].Text!=currentPuzzleSolution[i].ToString())
-                {
-                    wowGoodJob = false;
-                    break;
-                }
-                else
-                {
-                    wowGoodJob = true;
-                }
-            }
 
-            if (wowGoodJob == false)
+            if (IsComplete() == false)
             {
                 MessageBox.Show("You made a mistake.");
             }
-
-            if (wowGoodJob == true)
+            else if (IsComplete() == true)
             {
                 MessageBox.Show("You finished the puzzle with no mistakes!");
             }
             
+        }
+
+        private bool IsComplete()
+        {
+            bool win = false;
+            for (int i = 0; i < 81; i++)
+            {
+                if (sortedRichTextBoxes[i].Text != currentPuzzleSolution[i].ToString())
+                {
+                    win = false;
+                    break;
+                }
+                else
+                {
+                    win = true;
+                }
+            }
+            return win;
+        }
+
+        private void RemoveCaret(object sender, MouseEventArgs e)
+        {
+            HideCaret((sender as RichTextBox).Handle);
+        }
+
+        private void RemoveCaret(object sender, EventArgs e)
+        {
+            HideCaret((sender as RichTextBox).Handle);
         }
 
         private void UpdateTimer()
