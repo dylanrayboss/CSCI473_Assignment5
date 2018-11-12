@@ -1,4 +1,3 @@
-# - bold initialized values (haley)
 # - progress bar (alonso)
 # - reset to revert puzzle back to inital state
 # - hint button (dylan)
