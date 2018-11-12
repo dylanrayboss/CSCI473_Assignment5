@@ -1,5 +1,5 @@
 # - progress bar (alonso)
-# - reset to revert puzzle back to inital state
+# - reset to revert puzzle back to initial state
 # - hint button (dylan)
 # - fix save, add a SaveDialog (dylan)
 # - pause: don't let user edit puzzle during pause (haley) 
