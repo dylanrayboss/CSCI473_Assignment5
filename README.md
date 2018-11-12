@@ -1,4 +1,3 @@
-# - hide carat (dylan) 
 # - bold initialized values (haley)
 # - progress bar (alonso)
 # - reset to revert puzzle back to inital state
