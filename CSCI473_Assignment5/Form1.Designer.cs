@@ -1777,6 +1777,7 @@
             this.CheatButton.TabIndex = 22;
             this.CheatButton.Text = "Cheat";
             this.CheatButton.UseVisualStyleBackColor = true;
+            this.CheatButton.Click += new System.EventHandler(this.CheatButton_Click);
             // 
             // Form1
             // 

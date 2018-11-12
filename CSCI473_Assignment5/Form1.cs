@@ -244,6 +244,18 @@ namespace Assignment5
             UpdateTimer();
         }
 
+        private void CheatButton_Click(object sender, EventArgs e)
+        {
+            Random randomIndex = new Random();
+            int randomIndexValue = randomIndex.Next(1, 81);
+            while (sortedRichTextBoxes[randomIndexValue].Text!="")
+            {
+                randomIndexValue = randomIndex.Next(1, 81);
+            }
+            sortedRichTextBoxes[randomIndexValue].Text = currentPuzzleSolution[randomIndexValue].ToString();
+            sortedRichTextBoxes[randomIndexValue].ForeColor = Color.Salmon;
+        }
+
         private void UpdateTimer()
         {
             timerText.Text = String.Format("{0}:{1}:{2}", hours.ToString("00"), minutes.ToString("00"), seconds.ToString("00"));
