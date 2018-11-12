@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +30,9 @@ namespace Assignment5
         public char[] currentPuzzleSolution = new char[81];
         public char[] savedPuzzle = new char[81];
 
+        public static int NumberofEmptyFields;
+        public static int NumberOfsolvedFields;
+
         public Form1()
         {
             InitializeComponent();
@@ -39,6 +43,8 @@ namespace Assignment5
                  .ToArray();
             savedPuzzle = null;
             NewPuzzle(difficulty);
+            
+            
         }
     
 
@@ -130,9 +136,10 @@ namespace Assignment5
                     if (newPuzzle[index] != '0')
                     {
                         (richTextBox as RichTextBox).ReadOnly = true;
+
                     }
                     richTextBox.Text = currentPuzzle[index].ToString();
-                }
+                }   
                 index++;
             }
         }
@@ -289,6 +296,25 @@ namespace Assignment5
             timerText.Text = String.Format("{0}:{1}:{2}", hours.ToString("00"), minutes.ToString("00"), seconds.ToString("00"));
         }
 
+        private void richTextBox1x1_Validating(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void Form1_VisibleChanged(object sender, EventArgs e)
+        {
+            foreach (var textBox in allRichTextBoxes)
+            {
+                if (textBox.Text == "")
+                {
+                    NumberofEmptyFields += 1;
+
+                }
+
+                textBox.TextChanged += new EventHandler(validateInputField);
+            }
+        }
+
         private void SetTimer(string savedTimer)
         {
             hours = Int16.Parse(savedTimer.Substring(0, 2));
@@ -296,6 +322,44 @@ namespace Assignment5
             seconds = Int16.Parse(savedTimer.Substring(4, 2));
             UpdateTimer();
             timer.Enabled = true;
+        }
+
+        private void validateInputField(object sender, EventArgs e)
+        {
+            RichTextBox textBoxInput = (RichTextBox)sender;
+            if (textBoxInput.Text == "")
+                return;
+
+            Dictionary<string, char> arraytoDictionaryConvertedValues = new Dictionary<string, char>();
+            int currentPuzzleIndex = 0;
+            for (int i = 1; i < 10; ++i)
+            {
+                for (int k = 1; k < 10; ++k)
+                {
+                    char value = currentPuzzleSolution[currentPuzzleIndex++];
+                    arraytoDictionaryConvertedValues.Add("" + i + "+" + k, value);
+                }
+
+            }
+            
+            string textBoxName = textBoxInput.Name;
+            int row = Int32.Parse(textBoxName.Substring(11,1));
+            int col = Int32.Parse(textBoxName.Substring(13,1));
+            string solutionCell = arraytoDictionaryConvertedValues[row + "+" + col].ToString();
+            if (textBoxInput.Text != (solutionCell))
+            {
+                StatusTextBox.Text = "Wrong value";
+                textBoxInput.BackColor = Color.Red;
+                sender = textBoxInput;
+            }
+            else if(textBoxInput.Text == solutionCell && textBoxInput.ReadOnly != true)
+            {
+                StatusTextBox.Text = "You're doing great so far!";
+                NumberOfsolvedFields++;
+//                int step = 100 / (NumberofEmptyFields / NumberOfsolvedFields);
+//                progressBar1.Increment(step);
+                textBoxInput.BackColor = Color.White;
+            } 
         }
     }
 }

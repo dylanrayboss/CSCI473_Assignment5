@@ -124,6 +124,8 @@
             this.timerText = new System.Windows.Forms.Label();
             this.CheatButton = new System.Windows.Forms.Button();
             this.SubmitButton = new System.Windows.Forms.Button();
+//            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.StatusTextBox = new System.Windows.Forms.TextBox();
             this.difficultyContextMenuStrip.SuspendLayout();
             this.panel10.SuspendLayout();
             this.SuspendLayout();
@@ -1387,26 +1389,26 @@
             this.mediumToolStripMenuItem,
             this.hardToolStripMenuItem});
             this.difficultyContextMenuStrip.Name = "difficultyContextMenuStrip";
-            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(111, 70);
+            this.difficultyContextMenuStrip.Size = new System.Drawing.Size(120, 70);
             // 
             // easyToolStripMenuItem
             // 
             this.easyToolStripMenuItem.Name = "easyToolStripMenuItem";
-            this.easyToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.easyToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.easyToolStripMenuItem.Text = "Easy";
             this.easyToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // mediumToolStripMenuItem
             // 
             this.mediumToolStripMenuItem.Name = "mediumToolStripMenuItem";
-            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.mediumToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.mediumToolStripMenuItem.Text = "Medium";
             this.mediumToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
             // hardToolStripMenuItem
             // 
             this.hardToolStripMenuItem.Name = "hardToolStripMenuItem";
-            this.hardToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.hardToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.hardToolStripMenuItem.Text = "Hard";
             this.hardToolStripMenuItem.Click += new System.EventHandler(this.DifficultyToolStripMenuItem_Click);
             // 
@@ -1790,11 +1792,30 @@
             this.SubmitButton.UseVisualStyleBackColor = true;
             this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
+            // progressBar1
+            // 
+//            this.progressBar1.Location = new System.Drawing.Point(744, 209);
+//            this.progressBar1.MarqueeAnimationSpeed = 0;
+//            this.progressBar1.Name = "progressBar1";
+//            this.progressBar1.Size = new System.Drawing.Size(156, 23);
+//            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+//            this.progressBar1.TabIndex = 25;
+            // 
+            // StatusTextBox
+            // 
+            this.StatusTextBox.Cursor = System.Windows.Forms.Cursors.No;
+            this.StatusTextBox.Location = new System.Drawing.Point(744, 238);
+            this.StatusTextBox.Name = "StatusTextBox";
+            this.StatusTextBox.Size = new System.Drawing.Size(156, 20);
+            this.StatusTextBox.TabIndex = 26;
+            this.StatusTextBox.Text = "Start Solving!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 564);
+            this.Controls.Add(this.StatusTextBox);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.CheatButton);
             this.Controls.Add(this.timerText);
@@ -1804,8 +1825,11 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.newPuzzleButton);
+//            this.Controls.Add(this.progressBar1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.Silver;
+            this.VisibleChanged += new System.EventHandler(this.Form1_VisibleChanged);
             this.difficultyContextMenuStrip.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -1909,6 +1933,8 @@
         private System.Windows.Forms.Label timerText;
         private System.Windows.Forms.Button CheatButton;
         private System.Windows.Forms.Button SubmitButton;
+//        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.TextBox StatusTextBox;
     }
 }
 
