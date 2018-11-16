@@ -1,2 +1,1 @@
-# - progress bar (alonso)
-# - hint button (dylan)
+# - progress bar
